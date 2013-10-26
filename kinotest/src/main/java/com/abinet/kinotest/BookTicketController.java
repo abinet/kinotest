@@ -13,10 +13,10 @@ import org.springframework.web.bind.support.SessionStatus;
 @SessionAttributes(types=TicketForm.class)
 public class BookTicketController {
 
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(method = RequestMethod.GET)
 	public String start(Model model) {
 		model.addAttribute(new TicketForm());
-		return "booking/movie";
+		return "booking/booking";
 	}
 	
 	@RequestMapping(value = "/movie", method = RequestMethod.POST)
