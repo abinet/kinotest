@@ -4,6 +4,6 @@
     <title>Confirmation Page</title>
 </head>
 <body>
-    Thank you for your purchase!
+    Thank you ${ticketForm.lastName}  for your purchase ticket to ${ticketForm.movieId}!
 </body>
 </html>
