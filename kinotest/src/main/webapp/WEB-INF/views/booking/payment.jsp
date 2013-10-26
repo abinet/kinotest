@@ -5,7 +5,7 @@
 <title>Payment Page</title>
 </head>
 <body>
-	<form:form action="/booking/payment" modelAttribute="ticketForm">
+	<form:form action="payment" modelAttribute="ticketForm">
         CreditCard Number : <form:input path="creditCardNumber" />
 		<input type="submit" />
 	</form:form>

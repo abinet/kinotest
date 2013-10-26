@@ -5,7 +5,7 @@
 	<title>Booking Start Page</title>
 </head>
 <body>
-	<form:form action="/booking/movie" modelAttribute="ticketForm">
+	<form:form action="movie" modelAttribute="ticketForm">
 		Movie ID : <form:input path="movieId"/>
 		<input type="submit"/>
 	</form:form>

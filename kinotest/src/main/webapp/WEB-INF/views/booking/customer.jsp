@@ -5,7 +5,7 @@
 	<title>Customer Page</title>
 </head>
 <body>
-	<form:form action="/booking/customer" modelAttribute="ticketForm">
+	<form:form action="customer" modelAttribute="ticketForm">
 		Last Name : <form:input path="lastName"/>
 		<input type="submit"/>
 	</form:form>
